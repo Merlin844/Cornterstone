@@ -1,0 +1,14 @@
+CREATE TABLE [ASPN].[cornerstone].[AllMainTopics] (
+	UserID  nvarchar(100),
+	UserFullName nvarchar(100),
+	UserLastHireDate date,
+	UserPosition nvarchar(100),
+	UserDivision nvarchar(100),
+	UserLocation nvarchar(100),
+	UserManagerUserFullName nvarchar(100),
+	TrainingTrainingTitle nvarchar(255),
+	TranscriptTranscriptStatus nvarchar(100),
+	TranscriptTranscriptCompletedDate Date,
+	TrainingTrainingType nvarchar(100),	
+	RunDate Date
+);
