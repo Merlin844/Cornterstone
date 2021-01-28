@@ -1,0 +1,14 @@
+CREATE TABLE [ASPN].[cornerstone].[EquipmentEvaluationStatus] (
+	UserID nvarchar(100),                                                 
+	UserFullName nvarchar(200),
+	UserLastHireDate Date,
+	UserPosition nvarchar(100),                                                
+	UserDivision nvarchar(100),
+	UserManagerFullName nvarchar(100),                                
+	AssignmentTrainingTitle nvarchar(255),                
+	OntheJobTrainingExpressClassDateObserved date,
+	OntheJobTrainingExpressClassObservedTrainingComments nvarchar(max),
+	OntheJobTrainingExpressClassObservedTrainingResult nvarchar(100), 
+	UserLocation nvarchar(100),                                       
+	RunDate Date
+);
