@@ -340,7 +340,7 @@ function AllMainTopics() {
         }
             
         # Copy imported file to Archive
-        $file | Move-Item -Destination "\\001sql02\e$\integrations\cornerstone\Archive\SelfIdentifiedAreasOfExpertise" -Force
+        $file | Move-Item -Destination "\\001sql02\e$\integrations\cornerstone\Archive\AllMainTopics" -Force
     }
 }
 
@@ -421,7 +421,7 @@ function EquipmentEvaluationStatus() {
 
         # Copy imported file to Archive
 
-        $file | Move-Item -Destination "\\001sql02\e$\integrations\cornerstone\Archive\SelfIdentifiedAreasOfExpertise" -Force
+        $file | Move-Item -Destination "\\001sql02\e$\integrations\cornerstone\Archive\EquipmentEvaluationStatus" -Force
     }
 }
 
